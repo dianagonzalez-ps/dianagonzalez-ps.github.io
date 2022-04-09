@@ -139,20 +139,13 @@ body{
     height: 25px;
     width: 130px;
     margin-top: 15px;
-    color: #1D9AF2;
-    background-color: #292D3E;
-    border: 1px solid #1D9AF2;
-    border-radius: 4px;
-    padding: 0 15px;
-    cursor: pointer;
-    height:32px;
-    font-size:14px;
-    background-position: center;
-    transition: background 0.8s;
-    }
-.bot-1:active {
-    box-shadow: 0 3px 0 #2243ad;
-    top: 3px;
+
+}
+
+.bot-1:hover{
+    color: var(--white-color);
+    background-color:var(--orange2-color);
+
 }
 
 
