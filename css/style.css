@@ -136,8 +136,8 @@ body{
     font-weight: bold;
     color: var(--white-color);
     cursor: pointer;
-    height: 25px;
-    width: 130px;
+    height: 29px;
+    width: 120px;
     margin-top: 15px;
 
 }
@@ -145,7 +145,18 @@ body{
 .bot-1:hover{
     color: var(--white-color);
     background-color:var(--orange2-color);
+    animation: 3s bot-1 1;
+}
 
+
+@keyframes bot-1{
+    25%, 75%{
+        transform: scale(0.8);
+    }
+
+    50%{
+        transform: scale(1.1);
+    }
 }
 
 
@@ -918,9 +929,26 @@ footer p{
     border-radius: 8px;
     border-color: var(--acuamarine-color);
     cursor: pointer;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;  
 }
+
+.but-1:hover{
+    color: var(--white-color);
+    background-color:var(--orange2-color);
+    animation: 3s but-1 1;
+}
+
+
+@keyframes but-1{
+    25%, 75%{
+        transform: scale(0.8);
+    }
+
+    50%{
+        transform: scale(1.1);
+    }
+}
+
 
 .but-2{
     background-color:var(--orange2-color);
@@ -937,6 +965,25 @@ footer p{
     position: relative; right: 3rem;
 
 }
+
+.but-2:hover{
+    color: var(--white-color);
+    background-color:var(--orange2-color);
+    animation: 3s but-2 1;
+}
+
+
+@keyframes but-2{
+    25%, 75%{
+        transform: scale(0.8);
+    }
+
+    50%{
+        transform: scale(1.1);
+    }
+}
+
+
 
 @media screen and (min-width: 768px){
 
@@ -1200,6 +1247,28 @@ footer p{
     color: var(--white-color);
     background-color:var(--orange2-color);
     cursor: pointer;
+    animation: 1s btn-dash 1;
+    transform-origin: top center;
+    }   
+        
+
+@keyframes btn-dash{
+    20%{
+        transform: rotate(15deg);
+}
+        
+    40%{
+    transform: rotate(-10deg);
+    }
+        
+    60%{
+    transform: rotate(5deg);
+ }
+    80%{
+transform: rotate(3deg);
+}
+        
+     
 }
 
 .btn-menu-dashboard{
@@ -1501,7 +1570,7 @@ footer p{
         flex-direction: row;
         flex-basis: 20%;
         background-color: var(--blue4-color);
-        height: 100vh;
+        height: 120vh;
     }
     
     .logo2 img{
@@ -1558,7 +1627,7 @@ footer p{
         justify-content:center;
         align-items: center;
         background: linear-gradient(to bottom, gray, white); 
-        margin-left: 43rem;
+        margin-left: 50rem;
          
     }
     
@@ -1687,6 +1756,8 @@ footer p{
     cursor: pointer;
 }
 
+
+
 .btn_table i{
     font-size: 15px;
     margin-left: 5px;
@@ -1712,6 +1783,32 @@ footer p{
     color: var(--blue-color);
     text-decoration: var(--blue2-color) underline; 
 }
+    
+    
+.text_pacientes:hover{
+    animation: 1s text_pacientes 1;
+    transform-origin: top center;
+}   
+    
+    
+    @keyframes text_pacientes{
+    20%{
+        transform: rotate(15deg);
+    }
+    
+    40%{
+        transform: rotate(-10deg);
+    }
+    
+    60%{
+        transform: rotate(5deg);
+    }
+    80%{
+        transform: rotate(3deg);
+    }
+    }
+    
+
 
 .table{
     width: 100%;
@@ -2622,8 +2719,24 @@ footer p{
         color: var(--white-color);
         font-weight: 400;
     
-    
     }
+    .btn_save:hover{
+        color: var(--white-color);
+        background-color:var(--orange2-color);
+        animation: 3s btn_save 1;
+    }
+    
+    
+    @keyframes btn_save{
+        25%, 50%{
+            transform: scale(0.8);
+        }
+    
+        50%{
+            transform: scale(1.1);
+        }
+    }
+    
 }
 
 
