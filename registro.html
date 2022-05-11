@@ -24,13 +24,14 @@
 
         <main>
             <h1 class="tittle_registrer_form">REGISTRO USUARIO NUEVO</h1>
-
     <section id="new_user">
+
     <div class="form_border">
+
         <form class="registrer_form" name="form" action="index.html" method="get" autocomplete="autocomplete">
         <div class="data_date">
             <input type="date" name="date" class="date" min="1976-01-01" max="2022-01-01">
-            <input type="number" id="number" class="number" requiered placeholder="N° de registro">
+            <input type="number" id="number" class="number" placeholder="N° de registro" required>
             </div>
 
         <div class="tittle_data">
@@ -38,8 +39,9 @@
         </div>
 
         <div class="data_patient">
-            <input type="text" id="nombre" name="nombre" required placeholder="Escribe tu nombre">
-            <input type="text" id="apellido" name="apellido" required placeholder="Apellidos">
+
+            <input id="firstname" name="firstname "type="text" placeholder="Ingrese su nombre" required>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellidos" required>
         </div>
 
         <div class="data_patient">
@@ -54,7 +56,7 @@
 
         <div class="data_patient">
             <input type="date" name="date" class="date" min="1976-01-01" max="2022-01-01">
-            <input type="number" id="edad" name="edad" required placeholder="Edad">
+            <input type="number" id="edad" name="edad" re>
         </div>
 
         <div class="tittle_data">
@@ -1225,7 +1227,7 @@
         </div>
 
         <div class="data_patient">
-            <input type="text" id="direccion" name="direccion" required placeholder="Dirección">
+            <input type="text" id="direccion" name="direccion" placeholder="Dirección">
             <input type="email" id="email" name="email" required placeholder="Correo eletrónico">   
         </div>
 
@@ -1261,7 +1263,7 @@
                 <option value="2">Psicosocial</option>
                 <option value="3">Múltiple</option>
             </select>
-            <input type="text" id="alergia" name="alergia" required placeholder="Alergia">
+            <input type="text" id="alergia" name="alergia" placeholder="Alergia" required>
         </div>
 
         <label class="text_prueba">¿El paciente se ha realizado la prueba del COVID con anterioridad y esta ha salido?</label>
@@ -1275,8 +1277,9 @@
             <input name="testcovid" id="test" type="radio" checked> NO
             <input name="testcovid" id="test" type="radio"> SI
         </div>
-        </form>
         <div class="btn_save"><a href="pacientes.html"><button type="submit">Guardar</a></button></div>
+        </form>
+        
     </div>
         </section>
     </main>

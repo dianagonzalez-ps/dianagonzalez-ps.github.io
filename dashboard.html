@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/bfc08c0c99.js" 
-    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bfc08c0c99.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Forja Empresas</title>
 </head>
 
@@ -45,9 +45,10 @@
             </div>
                 <h1>BIENVENIDOS</h1>
                     <div class="search">
-                    <input type="text" class="form-doc" placeholder="Digite el número de documento">
-                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <input type="text" id="domTextElement" class="form-doc" placeholder="Digite el número de documento">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass" onclick="getValueInput()"></i></a>
                     <a href=""><i class="fa-solid fa-arrow-rotate-right"></i></a>
+
                     </div>
                 <div class="img-forja1"><img src="img/13. guerreros.png"></div>
     
@@ -57,6 +58,6 @@
             <article class="franja2">
                 <img src="img/12. franja.svg">
             </article>
-    
+    <script src="js/main.js"></script>
 </body>
 </html>

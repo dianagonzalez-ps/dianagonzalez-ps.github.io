@@ -8,11 +8,14 @@
     crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Forja Empresas</title>
 </head>
+
 <body id="login">
 
-    <section id="login-inicio">
+    
+    <form name=form id="login-inicio">
             <button class="but-1">Volver al inicio</i></button>
             
          <article class="box-login">
@@ -24,26 +27,22 @@
         <div class="acceso">
             <div class="form-group">
                 <label for="usuario" class="form-label">Usuario:</label>
-                <input type="text" name="usuario" id="usuario" 
+                <input type="text" name="usuario" id="usuario"
                 class="form-input" placeholder="Ingresa tu Usuario">
        
 
             <div class="form-group">
                 <label for="password" class="form-label">Contraseña:</label>
-                <input type="password" name="usuario" id="password" class="form-input"
+                <input type="password" name="password" id="password" class="form-input"
                 placeholder="Ingresa tu Contraseña">
             </div>
             <div class="form-recordar"> 
                 <a href="" class="form-olvido">¿Olvidaste tu contraseña?</a>
             </div>
-            <form method="get" action="/dashboard.html">
-            <button class="but-2">Ingresar</i></button>
-            </form>
+            <input class="botLogin" onclick=ir() type="button" value="Ingresar">
         </div>
-		</form>
-	</section>    
-      </div>
-    </section>
-		
+    </div>     
+</form>
+		<script src="js/login.js"></script>
 </body>
 </html>
