@@ -15,7 +15,7 @@ const getValueInput = () =>{
         confirmButtonText: 'Ir a registro'
       }).then((result) => {
         if (result.isConfirmed) {
-          window.location.href = "registro.html";
+          window.location.href = "registroVacuna.html";
         
         }
       })
@@ -34,7 +34,7 @@ const getValueInput = () =>{
         confirmButtonText: 'Ir a registro'
       }).then((result) => {
         if (result.isConfirmed) {
-          window.location.href = "registro.html";
+          window.location.href = "registroVacuna.html";
         
         }
       })
@@ -51,7 +51,7 @@ const getValueInput = () =>{
         confirmButtonText: 'Ir a registro'
       }).then((result) => {
         if (result.isConfirmed) {
-          window.location.href = "registro.html";
+          window.location.href = "registroVacuna.html";
         
         }
       })
@@ -60,7 +60,7 @@ const getValueInput = () =>{
     else{
       Swal.fire({
         title: 'No se encuentra registrado',
-        text: "Diligencie el formulario",
+        text: "Diligencie el formulario de registro",
         icon: 'error',
         showCancelButton: true,
         confirmButtonColor: '#10175D',

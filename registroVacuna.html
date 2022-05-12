@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bfc08c0c99.js" 
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <title>Registro Vacunación</title>
+</head>
+
+<header>
+<div class="forja_head">
+    <div><img src="img/0. logoforja.png" alt="Logo Forja"></div>
+    <div class="icons_pacientes">
+        <a href="index.html"><i class="fa-solid fa-house-chimney-user"></i></a>
+        <a href="login.html"><i class="fa-solid fa-power-off"></i></a>
+    </div>
+</div>
+</header>
+
+<div class="franja3"><img src="img/12. franja.svg" alt="Franja Forja"></div>
+<body>
+<main>
+
+<form class="registro_form" name="form" action="" method="get" autocomplete="autocomplete">
+    <section class="firstPart">
+    <h4 class="txFirsPart">Estado Activo</h4>
+    <div class="buttonsFirst">
+        <input class="bSave" type="submit" value="Guardar Cambios">
+        <a href="dashboard.html"><input class="bSave"type="button" value="Cerrar"></a>
+    </div>
+
+</section>
+
+<div class="txInfo">
+    <h3>INFORMACIÓN DEL PACIENTE</h3>
+</div>
+
+    <div class="form_border">
+    <section id="new_users">
+        <div class="data_dates">
+            <input type="date" name="date" class="date" min="1976-01-01" max="2022-01-01" required>
+            <input type="number" id="number" class="number" placeholder="N° de registro" required>
+            </div>
+
+        <div class="tittleData">
+            <i class="fas fa-syringe"></i><h2>DATOS PERSONALES</h2>
+        </div>
+
+        <div class="data_patients">
+            <input id="firstname" name="firstname "type="text" placeholder="Ingrese su nombre" required>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellidos" required>
+        </div>
+
+        <div class="data_patients">
+            <input type="text" id="id" name="id" required placeholder="Número de identificación">
+            <input type="date" name="date" class="date" min="1976-01-01" max="2022-01-01">
+        </div>
+
+        <div class="data_patients">
+             <input type="number" placeholder="Edad" id="edad" required>
+             <select name="eps" id="eps" required>
+                <option disabled selected>EPS</option>
+                <option value="0">Salud Colmena</option>
+                <option value="1">Salud Total</option>
+                <option value="2">Cafesalud</option>
+                <option value="3">Sanitas</option>
+                <option value="4">Compensar</option>
+                <option value="5">Saludcoop</option>
+                <option value="6">Coomeva</option>
+                <option value="7">Famisanar</option>
+                <option value="8">Cruz Blanca</option>
+            </select>
+        </div>
+    </section>
+
+    <section id="sectionSecond">
+    
+        <div class="tittleData">
+            <i class="fas fa-syringe"></i><h2>INFORMACIÓN DE VACUNACIÓN</h2>
+        </div>
+
+        <div class="data_patients">
+            <select name="sedes" id="sedes" required>
+                <option disabled selected>Sede</option>
+                <option value="0">Circunvalar</option>
+                <option value="1">Corferias</option>
+                <option value="2">Suba</option>
+                <option value="3">Bosa</option>
+                <option value="4">Centro</option>
+            </select>
+            <select name="sedes" id="quienLoVacuno" required>
+                <option disabled selected>Persona que aplicó la vacuna</option>
+                <option value="0">Viviana Martínez</option>
+                <option value="1">Gregorio Barragan</option>
+                <option value="2">Luisa Duarte</option>
+            </select>
+            
+
+        </div>
+
+        <div class="data_patients">
+
+            <input name="idProfesional" id="idProfesional" type="text" placeholder="ID del Profesional"
+            required>
+
+            <select name="dosis" id="dosis" required>
+                <option disabled selected>Dosis</option>
+                <option value="0">Primera</option>
+                <option value="1">Segunda</option>
+                <option value="2">Tercera</option>
+                <option value="3">Refuerzo</option>
+            </select>
+           
+        </div>
+
+        <div class="dataPatient">
+            <select name="biologico" id="biologico" required>
+                <option disabled selected>Biologico</option>
+                <option value="0">Pfizer</option>
+                <option value="1">SinoVac</option>
+                <option value="2">Johnson & Johnson (Janssen)</option>
+                <option value="3">Moderna</option>
+                <option value="4">Oxford, AstraZeneca</option>
+                <input name="fechaDosis" id="biologico" type="text" placeholder="Fecha 1ra Dosis" required>
+                <input name="fecha2daDosis" id="biologico" type="text" placeholder="Fecha 2da Dosis" required>
+            </select>
+        </div>
+
+        <div class="observation">
+            <textarea name="observacion" id="observacion" cols="40" rows="5" placeholder="Observaciones adicionales"></textarea>
+        </div>
+    </section>
+</form>
+        
+    </div>
+    </main>
+    <footer class="foot_2">
+        <p>© 2021 FORJA EMPRESAS</p>
+    </footer>
+
+</body>
+
+</html>
