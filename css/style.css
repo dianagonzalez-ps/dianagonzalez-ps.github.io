@@ -2146,7 +2146,7 @@ transform: rotate(3deg);
     font-size: 12px;
     margin-top: 1rem;
     padding-left: 8px;   
-    margin-left: 1.5rem;
+    margin-left: 0.7rem;
 }
 
 .tittle_data{
@@ -2180,7 +2180,7 @@ transform: rotate(3deg);
     width: 300px;
     height: 30px;
     margin: 5px;
-    margin-left: 30px;
+    margin-left: 0.7rem;
     color: var(--silver-color);
     font-size: 12px;
     padding-left: 8px;
@@ -2194,10 +2194,10 @@ transform: rotate(3deg);
     width: 300px;
     height: 30px;
     margin: 5px;
-    margin-left: 30px;
+    margin-left: 0.7rem;
     color: var(--silver-color);
     font-size: 12px;
-    padding-left: 10px;
+    padding-left: 8px;
 }
 
 .data2_patient select{
@@ -2208,7 +2208,7 @@ transform: rotate(3deg);
     margin: 5px;
     color: var(--silver-color);
     font-size: 12px;
-    margin-left: 1.5rem;
+    margin-left: 0.7rem;
     padding-left: 8px; 
 }
 
@@ -2220,7 +2220,7 @@ transform: rotate(3deg);
     margin: 5px;
     color: var(--silver-color);
     font-size: 12px;
-    margin-left: 1.5rem;
+    margin-left: 0.7rem;
   
 }
 
@@ -2805,13 +2805,13 @@ transform: rotate(3deg);
 .data_dates input{
     border: 2px solid var(--blue3-color);
     border-radius: 5px;
-    width: 20rem;
+    width: 18rem;
     height: 30px;
     color: var(--silver-color);
     font-size: 13px;
     margin-top: 1rem;
     padding-left: 8px;  
-    margin-left: 14px; 
+    margin-left: 0.2rem; 
 }
 
 .tittleData{
@@ -2843,22 +2843,22 @@ transform: rotate(3deg);
 .data_patients input{
     border: 2px solid var(--blue3-color);
     border-radius: 5px;
-    width: 20rem;
+    width: 18rem;
     height: 30px;
     margin: 4px;
     color: var(--silver-color);
     font-size: 12px;
     padding-left: 8px;
-    margin-left: 14px;
+    margin-left: 0.2rem;
 }
 
 .data_patients select{
     border: 2px solid var(--blue3-color);
     border-radius: 5px;
-    width: 20rem;
+    width: 18rem;
     height: 30px;
     margin: 5px;
-    margin-left: 15px;
+    margin-left: 0.2rem;
     color: var(--silver-color);
     font-size: 12px;
     padding-left: 10px;
@@ -2900,10 +2900,10 @@ transform: rotate(3deg);
 .dataPatient select{
     border: 2px solid var(--blue3-color);
     border-radius: 5px;
-    width: 20rem;
+    width: 18rem;
     height: 30px;
     margin: 5px;
-    margin-left: 15px;
+    margin-left: 0.3rem;
     color: var(--silver-color);
     font-size: 12px;
     padding-left: 10px;
@@ -2912,14 +2912,13 @@ transform: rotate(3deg);
 .dataPatient input{
     border: 2px solid var(--blue3-color);
     border-radius: 5px;
-    width: 20rem;
+    width: 18rem;
     height: 30px;
     margin: 4px;
     color: var(--silver-color);
     font-size: 12px;
     padding-left: 8px;
-    margin-left: 14px;
-    margin-right: 14px;
+    margin-left: 0.3rem;
 }
 
 .observation textarea{ 
@@ -2927,10 +2926,12 @@ transform: rotate(3deg);
     background-color: #F1F1F1;
     border: none;
     height: 100px;
-    width: 21rem;
+    width: 18rem;
     margin-top: 2rem;
+    margin-left: 0.3rem;
     text-align: center;
     font-size: 12px;
+
 }
 
 
