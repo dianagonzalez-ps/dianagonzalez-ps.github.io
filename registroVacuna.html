@@ -42,7 +42,7 @@
     <div class="form_border">
     <section id="new_users">
         <div class="data_dates">
-            <input type="date" name="date" class="date" min="1976-01-01" max="2022-01-01" required>
+            <input type="date" name="date" class="date" min="1976-01-01" max="2022-01-01"  pattern="^(?:3[01]|[12][0-9]|0?[1-9])([\-/.])(0?[1-9]|1[1-2])\1\d{4}$" required>
             <input type="number" id="number" class="number" placeholder="N° de registro" required>
             </div>
 
@@ -51,7 +51,7 @@
         </div>
 
         <div class="data_patients">
-            <input id="firstname" name="firstname "type="text" placeholder="Ingrese su nombre" required>
+            <input id="firstname" name="firstname "type="text" placeholder="Ingrese su nombre" pattern="[a-zA-ZÀ-ž\s]+" required>
             <input type="text" id="apellido" name="apellido" placeholder="Apellidos" required>
         </div>
 

@@ -30,7 +30,7 @@
 
         <form class="registrer_form" name="form" action="index.html" method="get" autocomplete="autocomplete">
         <div class="data_date">
-            <input type="date" name="date" class="date" min="1976-01-01" max="2022-01-01" required>
+            <input type="date" name="date" class="date" min="1976-01-01" max="2022-01-01" pattern="^(?:3[01]|[12][0-9]|0?[1-9])([\-/.])(0?[1-9]|1[1-2])\1\d{4}$"required>
             <input type="number" id="number" class="number" placeholder="N° de registro" required>
             </div>
 
@@ -1232,8 +1232,8 @@
         </div>
 
         <div class="data_patient">
-            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono fijo" required>
-            <input type="tel" id="telefono" name="telefono" placeholder="Celular" required>   
+            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono fijo" pattern= "^9(\d{7})$"required>
+            <input type="tel" id="telefono" name="telefono" placeholder="Celular" pattern="[0-9]{9}" required>   
         </div>
 
         <div class="tittle_data">
